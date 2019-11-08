@@ -63,7 +63,7 @@ Live demo running on picasso: http://192.31.23.25:4000/
 ## Links of interest
 
 - Docker docs: https://docs.docker.com/compose/gettingstarted/
-- KU Leuven Podman Info: https://system.cs.kuleuven.be/cs/system/software/Docker/
+- CS KU Leuven Podman Info: https://system.cs.kuleuven.be/cs/system/software/Docker/
 - Docker cheat sheet: https://jrebel.com/wp-content/uploads/docker-commands-cheat-sheet.pdf
 
 
