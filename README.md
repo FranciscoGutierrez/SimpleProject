@@ -12,13 +12,13 @@ The tutorial on Medium is available [here].
 
 To build this project you will need [Docker][Docker Install] and [Docker Compose][Docker Compose Install].
 
-## Clone Repository
+## Clone repository
 
 ```sh
 git clone https://github.com/FranciscoGutierrez/SimpleProject
 ```
 
-## Deploy and Run
+## Deploy and Run 
 
 ```sh
 make install
