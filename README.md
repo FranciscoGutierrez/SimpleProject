@@ -1,9 +1,7 @@
 # FMMI Simple Project
  > This is a simple project to demonstrate how to build a simple Flask RESTful API with Docker-Compose and Send it to Picasso Server.
 
- Based on the work of https://github.com/Krlier
-
-<img src="images/Homepage.png" align="center"/>
+Based on the work of https://github.com/Krlier
 
 ## What is this project about?
 
