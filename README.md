@@ -12,40 +12,49 @@ The tutorial on Medium is available [here].
 
 To build this project you will need [Docker][Docker Install] and [Docker Compose][Docker Compose Install].
 
-## Deploy and Run
+## Clone Repository
 
-After cloning this repository, you can type the following command to start the simple app:
+```sh
+git clone https://github.com/FranciscoGutierrez/SimpleProject
+```
+
+## Deploy and Run
 
 ```sh
 make install
 ```
 
-Then simply visit [localhost:5000][App] !
-
-## Clone Repository
-git clone https://github.com/FranciscoGutierrez/SimpleProject
+Then simply visit [localhost:4000][App]
 
 ## Generate docker image locally with docker compose:
+```sh
 make install
-
+```
 > Please check MakeFile for all the details. Also check /deployments folder here you can set up everything.
 
 ## Save Image Locally:
+```sh
 docker save -o ./docker-image.tar simple-app
-
+```
 ## Send to the server:
+```sh
 scp -P 2222 docker-image.tar student@picasso.experiments.cs.kuleuven.be:~
-<use-your-password>
+```
+><use-your-password>
 
 ## Load the Docker Image:
+```sh
 podman load --input docker-image.tar
+```
 
 ## Check the Loaded Image:
+```sh
 podman images
-
-Run image
+```
+## Run image
+```sh
 podman run localhost/simple-app-frank
-
+```
 Live demo running on picasso: http://192.31.23.25:4000/
 
 ## Questions?
@@ -56,5 +65,5 @@ Live demo running on picasso: http://192.31.23.25:4000/
 
 [Docker Install]:  https://docs.docker.com/install/
 [Docker Compose Install]: https://docs.docker.com/compose/install/
-[App]: http://127.0.0.1:5000
+[App]: http://127.0.0.1:4000
 [here]: https://medium.com/@daniel.carlier/how-to-build-a-simple-flask-restful-api-with-docker-compose-2d849d738137
