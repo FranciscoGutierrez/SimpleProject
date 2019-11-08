@@ -57,10 +57,11 @@ podman run localhost/simple-app-frank
 ```
 Live demo running on picasso: http://192.31.23.25:4000/
 
-## Questions?
+## Links of interest
 
-- robin.decroon@kuleuven.be
-- francisco.gutierrez@kuleuven.be
+https://docs.docker.com/compose/gettingstarted/
+https://system.cs.kuleuven.be/cs/system/software/Docker/
+Docker cheat sheet: https://jrebel.com/wp-content/uploads/docker-commands-cheat-sheet.pdf
 
 
 [Docker Install]:  https://docs.docker.com/install/
