@@ -56,7 +56,7 @@ podman images
 ```
 ## Run image
 ```sh
-podman run localhost/simple-app-frank
+podman run localhost/simple-app
 ```
 Live demo running on picasso: http://192.31.23.25:4000/
 
