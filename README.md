@@ -27,16 +27,19 @@ make install
 Then simply visit [localhost:4000][App]
 
 ## Generate docker image locally with docker compose:
+
 ```sh
 make install
 ```
 > Please check MakeFile for all the details. Also check /deployments folder here you can set up everything.
 
-## Save Image Locally:
+## Save image locally:
+
 ```sh
 docker save -o ./docker-image.tar simple-app
 ```
 ## Send to the server:
+
 ```sh
 scp -P 2222 docker-image.tar student@picasso.experiments.cs.kuleuven.be:~
 ```
