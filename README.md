@@ -24,31 +24,36 @@ make install
 
 Then simply visit [localhost:5000][App] !
 
-### Clone Repository
+## Clone Repository
 git clone https://github.com/FranciscoGutierrez/SimpleProject
 
-### Generate docker image locally with docker compose:
+## Generate docker image locally with docker compose:
 make install
 
 > Please check MakeFile for all the details. Also check /deployments folder here you can set up everything.
 
-### Save Image Locally:
+## Save Image Locally:
 docker save -o ./docker-image.tar simple-app
 
-### Send to the server:
+## Send to the server:
 scp -P 2222 docker-image.tar student@picasso.experiments.cs.kuleuven.be:~
 <use-your-password>
 
-### Load the Docker Image:
+## Load the Docker Image:
 podman load --input docker-image.tar
 
-### Check the Loaded Image:
+## Check the Loaded Image:
 podman images
 
 Run image
 podman run localhost/simple-app-frank
 
 Live demo running on picasso: http://192.31.23.25:4000/
+
+Questions?
+
+- robin.decroon@kuleuven.be
+- francisco.gutierrez@kuleuven.be
 
 
 [Docker Install]:  https://docs.docker.com/install/
