@@ -45,18 +45,18 @@ scp -P 2222 docker-image.tar student@picasso.experiments.cs.kuleuven.be:~
 ```
 ><use-your-password>
 
-## Load the Docker Image:
+## [Server] Load the Docker Image:
 ```sh
 podman load --input docker-image.tar
 ```
 
-## Check the Loaded Image:
+## [Server] Check the Loaded Image:
 ```sh
 podman images
 ```
-## Run image
+## [Server] Run image
 ```sh
-podman run -p 4000:5000 localhost/simple-app 
+podman run -p 4000:5000 localhost/simple-app
 ```
 Live demo running on picasso: http://192.31.23.25:4000/
 

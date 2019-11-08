@@ -3,7 +3,6 @@ services:
   app:
     container_name: simple-app
     build:
-      image: simple-app-demo
       context: ../
       dockerfile: deployments/app/Dockerfile
     ports:
