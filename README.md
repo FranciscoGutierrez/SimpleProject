@@ -12,13 +12,13 @@ The tutorial on Medium is available [here].
 
 To build this project you will need [Docker][Docker Install] and [Docker Compose][Docker Compose Install].
 
-##  Clone repository
+## Clone repository
 
 ```sh
 git clone https://github.com/FranciscoGutierrez/SimpleProject
 ```
 
-##  Deploy and Run  
+## Deploy and Run  
 
 ```sh
 make install
@@ -26,14 +26,14 @@ make install
 
 Then simply visit [localhost:4000][App]
 
-## Generate docker image locally with docker compose:
+## Generate docker image locally with docker compose:
 
 ```sh
 make install
 ```
 > Please check MakeFile for all the details. Also check /deployments folder here you can set up everything.
 
-## Save image locally:
+## Save image locally:
 
 ```sh
 docker save -o ./docker-image.tar simple-app
