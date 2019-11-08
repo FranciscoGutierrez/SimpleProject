@@ -46,7 +46,10 @@ scp -P 2222 docker-image.tar student@picasso.experiments.cs.kuleuven.be:~
 ><use-your-password>
 
 ## [Server] Load the Docker Image:
+```sh
+ssh [r-number]@ssh.cs.kuleuven.be
 ssh student@picasso.experiments.cs.kuleuven.be -p 2222
+```
 ><use-your-password>
 
 ## [Server] Load the Docker Image:
